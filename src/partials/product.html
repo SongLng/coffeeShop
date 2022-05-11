@@ -4,22 +4,22 @@
             Choose our delicious and best products
         </h2>
         <ul class="products__filters">
-            <li class="products__item products__line">
+            <li class="products__item products__line active-product" data-filter=".delicious">
                 <h3 class="products__title">New Delicacies</h3>
                 <span class="products__stock">3 products</span>
             </li>
-            <li class="products__item products__line">
+            <li class="products__item products__line" data-filter=".coffee">
                 <h3 class="products__title">Hot Coffee</h3>
                 <span class="products__stock">4 products</span>
             </li>
-            <li class="products__item products__line">
+            <li class="products__item products__line" data-filter=".cake">
                 <h3 class="products__title">Cakes and Delicacies</h3>
                 <span class="products__stock">4 products</span>
             </li>
         </ul>
         <div class="products__content grid">
             <!-- ====== DELICACIES======= -->
-            <article class="products__card">
+            <article class="products__card delicious">
                 <div class="products__shape">
                     <img src="images/delicacies1.png" alt="" class="products__img">
                 </div>
@@ -31,7 +31,7 @@
                     </button>
                 </div>
             </article>
-            <article class="products__card">
+            <article class="products__card delicious">
                 <div class="products__shape">
                     <img src="images/delicacies2.png" alt="" class="products__img">
                 </div>
@@ -43,7 +43,7 @@
                     </button>
                 </div>
             </article>
-            <article class="products__card">
+            <article class="products__card delicious">
                 <div class="products__shape">
                     <img src="images/delicacies3.png" alt="" class="products__img">
                 </div>
@@ -56,55 +56,104 @@
                 </div>
             </article>
             <!-- ====== COFFEE======= -->
-            <article class="products__card">
+            <article class="products__card coffee">
                 <div class="products__shape">
                     <img src="images/coffee1.png" alt="" class="products__img">
                 </div>
                 <div class="products__data">
-                    <h2 class="products__price"></h2>
-                    <h3 class="products_name"></h3>
+                    <h2 class="products__price">7$</h2>
+                    <h3 class="products_name">Black Coffee</h3>
                     <button class="button products__button">
                         <i class='bx bx-shopping-bag'></i>
                     </button>
                 </div>
             </article>
-            <article class="products__card">
+            <article class="products__card coffee">
                 <div class="products__shape">
                     <img src="images/coffee2.png" alt="" class="products__img">
                 </div>
                 <div class="products__data">
-                    <h2 class="products__price"></h2>
-                    <h3 class="products_name"></h3>
+                    <h2 class="products__price">12$</h2>
+                    <h3 class="products_name">Pure Coffee</h3>
                     <button class="button products__button">
                         <i class='bx bx-shopping-bag'></i>
                     </button>
                 </div>
             </article>
-            <article class="products__card">
+            <article class="products__card coffee">
                 <div class="products__shape">
                     <img src="images/coffee3.png" alt="" class="products__img">
                 </div>
                 <div class="products__data">
-                    <h2 class="products__price"></h2>
-                    <h3 class="products_name"></h3>
+                    <h2 class="products__price">9$</h2>
+                    <h3 class="products_name">Milk Coffee</h3>
+                    <button class="button products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </div>
+            </article>
+            <article class="products__card coffee">
+                <div class="products__shape">
+                    <img src="images/coffee4.png" alt="" class="products__img">
+                </div>
+                <div class="products__data">
+                    <h2 class="products__price">9$</h2>
+                    <h3 class="products_name">Moka Coffee</h3>
                     <button class="button products__button">
                         <i class='bx bx-shopping-bag'></i>
                     </button>
                 </div>
             </article>
             <!-- ====== CAKE======= -->
-            <article class="products__card">
+            <article class="products__card cake">
                 <div class="products__shape">
-                    <img src="" alt="" class="products__img">
+                    <img src="images/cake1.png" alt="" class="products__img">
                 </div>
                 <div class="products__data">
-                    <h2 class="products__price"></h2>
-                    <h3 class="products_name"></h3>
+                    <h2 class="products__price">6$</h2>
+                    <h3 class="products_name">Creme Cake</h3>
                     <button class="button products__button">
                         <i class='bx bx-shopping-bag'></i>
                     </button>
                 </div>
             </article>
+            <article class="products__card cake">
+                <div class="products__shape">
+                    <img src="images/cake2.png" alt="" class="products__img">
+                </div>
+                <div class="products__data">
+                    <h2 class="products__price">5$</h2>
+                    <h3 class="products_name">Chocolate Croissant</h3>
+                    <button class="button products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </div>
+            </article>
+            <article class="products__card cake">
+                <div class="products__shape">
+                    <img src="images/cake3.png" alt="" class="products__img">
+                </div>
+                <div class="products__data">
+                    <h2 class="products__price">15$</h2>
+                    <h3 class="products_name">Pan Cake</h3>
+                    <button class="button products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </div>
+            </article>
+            <article class="products__card cake">
+                <div class="products__shape">
+                    <img src="images/cake4.png" alt="" class="products__img">
+                </div>
+                <div class="products__data">
+                    <h2 class="products__price">12$</h2>
+                    <h3 class="products_name">Milk Cake</h3>
+                    <button class="button products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </div>
+            </article>
+
         </div>
     </div>
 </section>
