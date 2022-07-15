@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://songlng.github.io/coffeeShop",
+  "homepage": "https://songlng.github.io/coffeeshop",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /coffeeShop/"
+    "build": "parcel build src/*.html --public-url /coffeeshop/"
   },
   "repository": {
     "type": "git",
